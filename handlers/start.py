@@ -74,7 +74,7 @@ async def help(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""🎶How To Use Yone Music Bot Explained Below Read Carefully!👇👇
+        f"""<b>🎶How To Use Yone Music Bot Explained Below Read Carefully!👇👇
 
 First Of All add this bot in your groups And make admin to work properly🎸
 
@@ -98,4 +98,4 @@ The commands and there use is explained here:-
 
 📌Note= Sometime it works without admin rights but sometime it doesn't works so make admin to both the bots to work properly🤗
 
-Support Group:- @KoraSupport"""
+Support Group:- @KoraSupport</b>"""
