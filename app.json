@@ -35,8 +35,7 @@
       "required": true,
       "value": "10"
     }
-  }
-}
+  },
 
   "buildpacks": [
     {
