@@ -1,0 +1,10 @@
+pyrogram
+TgCrypto
+py-tgcalls
+python-dotenv
+youtube_dl==2021.5.16
+youtube_search_python
+requests
+aiohttp
+asyncio
+youtube_search
