@@ -1,6 +1,7 @@
 {
   "name": "𝐘𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎶🎸",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "logo": "https://telegra.ph/file/fe77d94e2105721ce4353.jpg",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/H1M4N5HU0P/YoneMusicBot",
   "stack": "container",
