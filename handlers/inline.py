@@ -6,7 +6,7 @@ from youtubesearchpython import VideosSearch
 
 
 @Yonebot.on_inline_query()
-async def inline(client: Client, query: InlineQuery):
+async def inline(client: Yonebot, query: InlineQuery):
     answers = []
     search_query = query.query.lower().strip().rstrip()
 
