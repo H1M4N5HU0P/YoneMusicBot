@@ -1,10 +1,11 @@
-from pyrogram import Client, errors
+from pyrogram import Client as Yonebot
+from pyrogram import errors
 from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
 
 from youtubesearchpython import VideosSearch
 
 
-@Client.on_inline_query()
+@Yonebot.on_inline_query()
 async def inline(client: Client, query: InlineQuery):
     answers = []
     search_query = query.query.lower().strip().rstrip()
@@ -13,7 +14,7 @@ async def inline(client: Client, query: InlineQuery):
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text="Tell me which youtube video you want⁉️",
+            switch_pm_text="Type a YouTube video name...",
             switch_pm_parameter="help",
             cache_time=0
         )
