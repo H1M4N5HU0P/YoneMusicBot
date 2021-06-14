@@ -4,7 +4,7 @@ from callsmusic import run
 from config import API_ID, API_HASH, BOT_TOKEN
 
 
-Yonebot = Bot(
+bot = Yonebot(
     ":memory:",
     API_ID,
     API_HASH,
@@ -12,5 +12,6 @@ Yonebot = Bot(
     plugins=dict(root="handlers")
 )
 
-Yonebot.start()
+bot.start()
 run()
+
