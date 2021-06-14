@@ -1,20 +1,65 @@
-![𝐘𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎶🎸](https://telegra.ph/file/fe77d94e2105721ce4353.jpg)
-<h2 align="centre">𝐘𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎶🎸</h2>
+<h1 align="centre">𝐘𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎶🎸</h1>
 
-<h3>Requirements 📝</h3>
+### A bot that can play music on telegram group's voice call
 
-- FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7+
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+# Available on telegram as @YoneMusic_bot
 
-## Deploy To Heroku</h4>
+<p align="center">
+  <img src="https://telegra.ph/file/fe77d94e2105721ce4353.jpg">
+</p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/H1M4N5HU0P/YoneMusicBot)
+<h2> Whats new 🔥 </h2>
 
-Use [@StringSessionGeneratorRobot](https://t.me/StringSessionGeneratorRobot) to get pyrogram string session
+- Thumbnail Support
+- Playlist Support
+- Current playback support
+- Showing track names when skipping
+- Zero downtime, Fully Stable
+- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
+- Settings panel
+- Control with buttons
+- Userbot auto join
 
-## Credits
+### Commands 🛠
+#### For all in group
 
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/suprojects/CallsMusic)
+- `/play <song name>` - play song you requested
+- `/dplay <song name>` - play song you requested via deezer
+- `/splay <song name>` - play song you requested via jio saavn
+- `/playlist` - Show now playing list
+- `/current` - Show now playing
+- `/song <song name>` - download songs you want quickly
+- `/search <query>` - search videos on youtube with details
+- `/deezer <song name>` - download songs you want quickly via deezer
+- `/saavn <song name>` - download songs you want quickly via saavn
+- `/video <song name>` - download videos you want quickly
+
+
+
+### Admins only 
+
+- `/player` - open music player settings panel
+- `/pause` - pause song play
+- `/resume` - resume song play
+- `/skip` - play next song
+- `/end` - stop music play
+- `/userbotjoin` - invite assistant to your chat
+- `/admincache` - Refresh admin list
+
+
+
+#### Based on Callsmusic-1
+
+### Deploy To Heroku</h4>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mahakaalalive/OxyXmusic)
+
+</details>
+
+<details>
+
+<summary> • 🔥CREDITS🔥 • </summary>
+<h2 align="center"> <a href="https://github.com/suprojects/CallsMusic">🔥 Original Repo 🔥</a></h2><h2 align="center"> <a href="https://github.com/Laky-64">🔥 Laky 🔥</a></h2><h2 align="center"> <a href="https://github.com/AndrewLaneX">🔥 Andrew 🔥</a></h2>
+
+</details>
+

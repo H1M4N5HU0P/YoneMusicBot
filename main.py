@@ -1,10 +1,10 @@
-from pyrogram import Client as Bot
+from pyrogram import Client as Yonebot
 
 from callsmusic import run
 from config import API_ID, API_HASH, BOT_TOKEN
 
 
-bot = Bot(
+Yonebot = Bot(
     ":memory:",
     API_ID,
     API_HASH,
@@ -12,5 +12,5 @@ bot = Bot(
     plugins=dict(root="handlers")
 )
 
-bot.start()
+Yonebot.start()
 run()

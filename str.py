@@ -1,13 +1,13 @@
 import asyncio
 
-from pyrogram import Client
+from pyrogram import Client as Yonebot
 
 
 print("Enter your app information from my.telegram.org/apps below.")
 
 
 async def main():
-    async with Client(":memory:", api_id=int(input("API ID:")), api_hash=input("API HASH:")) as app:
+    async with Yonebot(":memory:", api_id=int(input("API ID:")), api_hash=input("API HASH:")) as app:
         print(await app.export_session_string())
 
 
