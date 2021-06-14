@@ -1,6 +1,6 @@
 from typing import Callable
 
-from pyrogram import Client
+from pyrogram import Client as Yonebot
 from pyrogram.types import Message
 
 from helpers.admins import get_administrators
@@ -8,7 +8,7 @@ from config import SUDO_USERS
 
 
 def errors(func: Callable) -> Callable:
-    async def decorator(client: Client, message: Message):
+    async def decorator(client: Yonebot, message: Message):
         try:
             return await func(client, message)
         except Exception as e:
@@ -18,7 +18,7 @@ def errors(func: Callable) -> Callable:
 
 
 def authorized_users_only(func: Callable) -> Callable:
-    async def decorator(client: Client, message: Message):
+    async def decorator(client: Yonebot, message: Message):
         if message.from_user.id in SUDO_USERS:
             return await func(client, message)
 
