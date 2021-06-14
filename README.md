@@ -53,7 +53,14 @@
 ### Deploy To Heroku</h4>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/H1M4N5HU0P/YoneMusicBot)
+
+</details>
+
+<details>
+
+### Pyrogram String Session</h5>
 [Pyrogram String Session](https://replit.com/@H1M4N5HU0P/MafiaBotPyrogramStringSession#main.py)
+
 </details>
 
 <details>
