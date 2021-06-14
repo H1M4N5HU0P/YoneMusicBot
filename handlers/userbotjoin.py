@@ -19,13 +19,13 @@ async def addchannel(client, message):
         return
 
     try:
-        user = await USER.get_me()
+        user = await Yonemusic.get_me()
     except:
         user.first_name =  "𝐘𝐨𝐧𝐞 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭🎶🎸"
 
     try:
-        await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id,"I joined here as you requested")
+        await Yonemusic.join_chat(invitelink)
+        await Yonemusic.send_message(message.chat.id,"I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>helper already in your chat</b>",

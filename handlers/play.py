@@ -546,7 +546,7 @@ async def play(_, message: Message):
     & filters.group
     & ~ filters.edited
 )
-async def deezer(client: Client, message_: Message):
+async def deezer(client: Yonebot, message_: Message):
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
@@ -676,7 +676,7 @@ async def deezer(client: Client, message_: Message):
     & filters.group
     & ~ filters.edited
 )
-async def jiosaavn(client: Client, message_: Message):
+async def jiosaavn(client: Yonebot, message_: Message):
     global que
     lel = await message_.reply("🔄 **Processing**")
     administrators = await get_administrators(message_.chat)
