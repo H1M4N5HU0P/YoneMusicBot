@@ -59,7 +59,7 @@ async def play(_, message: Message):
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_photo(
-        photo="hhttps://telegra.ph/file/fe77d94e2105721ce4353.jpg",
+        photo="https://telegra.ph/file/fe77d94e2105721ce4353.jpg",
         reply_markup=keyboard,
         caption="▶️ **Playing** here the song requested by🔥{}!".format(
         message.from_user.mention()
