@@ -30,7 +30,7 @@ Use the buttons below to know more about me..😊
                 [
                     InlineKeyboardButton(
                         "⚡Commands⚡", url="https://telegra.ph/commands-06-14-2")
-                  ],[@
+                  ],[
                     InlineKeyboardButton(
                         "😎Owner😎", url="https://t.me/H1M4N5HU0P"
                     )
