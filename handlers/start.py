@@ -61,7 +61,7 @@ async def gstart(client: Yonebot, message: Message):
 
 
 @Yonebot.on_message(filters.command("help") & filters.private & ~filters.channel)
-async def start_(client: Yonebot, message: Message):
+async def help(client: Yonebot, message: Message):
     await message.reply_text(
         f"""<b>Hey there {format(
         message.from_user.mention)}! [Click here](https://telegra.ph/commands-06-14-2) to know about my Commands.⚡🔥
@@ -69,7 +69,7 @@ async def start_(client: Yonebot, message: Message):
         
 
 @Yonebot.on_message(filters.command("commands") & filters.private & ~filters.channel)
-async def start_(client: Yonebot, message: Message):
+async def commands(client: Yonebot, message: Message):
     await message.reply_text(
         f"""<b>Hey there {format(
         message.from_user.mention)}! [Click here](https://telegra.ph/commands-06-14-2) to know about my Commands.⚡🔥
