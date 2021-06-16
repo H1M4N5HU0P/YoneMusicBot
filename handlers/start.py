@@ -44,7 +44,6 @@ Use the buttons below to know more about me..😊
                 ]
             ]
         ),
-     disable_web_page_preview=True
     )
 
 @Yonebot.on_message(filters.command("start") & ~filters.private & ~filters.channel)
